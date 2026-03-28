@@ -1,0 +1,18 @@
+
+endpoint feito em PHP no servidor, e publicado na web
+
+https:/seu endereco/pasta/motorista/signinoff.php                   -- Buscar e gravar dados do motorista na Tabela Totvs para importar para o aplicativo mobile usar offline
+
+https://seu endereco/pasta/motorista/danfcarga00.php                -- Buscar e gravar no mobile XMLs da Tabela Totvs para importar para o aplicativo mobile usar offline e gerar a nota para o cliente assinar 
+
+https://seu endereco/pasta/motorista/rotascarga.php                 -- Buscar e gravar no mobile notas da tabela Totvs para listar as notas no modo offline que foram caradastrada para determinado motorista 
+
+https://seu endereco/pasta/motorista/rotasitens.php                 -- Buscar e gravar no mobile os itens da nota da tabela Totvs para listar no modo offline  
+
+
+
+
+https://seu endereco/pasta/motorista/ano/%s/uploadprodutosall.php   -- metodo para sincronizar com totvs enviar as notas fiscais que o cliente assinou como produto entregue
+
+https://seu endereco/pasta/motorista/aturotasim.php                 -- metodo para sincromizar com totvs e atualizar as tabelas para informar que os produtos foi entregue com sucesso   
+
